@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  <title>Frontend Mentor | News Homepage</title>
+</head>
+<body>
+  <main>
+    <nav id="nav-bar">
+      <img src="assets/images/logo.svg" alt="">
+      <button class="menu-btn" id="open-menu-btn" aria-label="Open Menu Button">
+        <img src="assets/images/icon-menu.svg" alt="">
+      </button>
+      <div class="hidden" id="menu-div">
+        <button class="menu-btn" id="close-menu-btn" aria-label="Close Menu Button">
+          <img src="assets/images/icon-menu-close.svg" alt="">
+        </button>
+        <ul id="menu">
+          <li class="menu-item">Home</li>
+          <li class="menu-item">New</li>
+          <li class="menu-item">Popular</li>
+          <li class="menu-item">Trending</li>
+          <li class="menu-item">Categories</li>
+        </ul>
+      </div>
+    </nav>
+    <div id="news-container">
+      <div id="upper-news">
+        <div id="main-upper-new">
+          <div id="bg-div"></div>
+          <div id="main-news">
+            <h1>
+              The Bright Future of Web 3.0?
+            </h1>
+            <div id="read-more-div">
+              <p>
+                We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. 
+                But is it really fulfilling its promise?
+              </p>
+              <button id="read-more-btn">Read more</button>
+            </div>
+          </div>
+        </div>
+        <div id="card-news">
+          <p class="card-news-main-title">New</p>       
+          <p class="card-news-title">Hydrogen VS Electric Cars</p>
+          <p class="card-news-description">
+            Will hydrogen-fueled cars ever catch up to EVs?
+          </p>         
+          <div class="divider"></div>         
+          <p class="card-news-title">The Downsides of AI Artistry</p>
+          <p class="card-news-description">
+            What are the possible adverse effects of on-demand AI image generation?
+          </p>       
+          <div class="divider"></div>          
+          <p class="card-news-title">Is VC Funding Drying Up?</p>
+          <p class="card-news-description">
+            Private funding by VC firms is down 50% YOY. We take a look at what that means.
+          </p>         
+        </div>
+      </div>
+      <div id="bottom-news">
+        <div class="bottom-new bottom-new-1">
+          <img src="assets/images/image-retro-pcs.jpg" alt="Retro PC">
+          <div class="bottom-new-info">
+            <p class="number">01</p>
+            <p class="bottom-new-title">Reviving Retro PCs</p>
+            <p class="bottom-new-description">
+              What happens when old PCs are given modern upgrades?
+            </p>
+          </div>
+        </div>
+        <div class="bottom-new bottom-new-2">
+          <img src="assets/images/image-top-laptops.jpg" alt="Laptop Keyboard">
+          <div class="bottom-new-info">
+            <p class="number">02</p>
+            <p class="bottom-new-title">Top 10 Laptops of 2022</p>
+            <p class="bottom-new-description">
+              Our best picks for various needs and budgets.
+            </p>
+          </div>
+        </div>
+        <div class="bottom-new bottom-new-3">
+          <img src="assets/images/image-gaming-growth.jpg" alt="Console Controller">
+          <div class="bottom-new-info">
+            <p class="number">03</p>
+            <p class="bottom-new-title">The Growth of Gaming</p>
+            <p class="bottom-new-description">
+              How the pandemic has sparked fresh opportunities.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>     
+    </div>
+  </main>
+  <footer>
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/itsale-o">Alessandra Oliveira</a>.
+  </footer>
+  <div id="back"></div>
+  <script src="assets/script.js"></script>
+</body>
+</html>
