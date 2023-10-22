@@ -51,8 +51,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [My solution on Frontend Mentor](https://your-solution-url.com)
-- Live Site URL: [Live site with Github Pages](https://your-live-site-url.com)
+- Solution URL: [My solution on Frontend Mentor](https://www.frontendmentor.io/solutions/news-homepage-solution-vfOnssoIY3)
+- Live Site URL: [Live site with Github Pages](https://itsale-o.github.io/news-homepage/)
 
 ## My process
 
